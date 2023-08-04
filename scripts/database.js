@@ -250,12 +250,12 @@ const database = {
   ],
 };
 
-const schools = () => {
+export const schools = () => {
   return structuredClone(database.schools)
 }
-const types = () => (
+export const types = () => (
   structuredClone(database.archetypes)
   ) //implied return version
   
-const books = () => structuredClone(database.books)
+export const books = () => structuredClone(database.books)
 
