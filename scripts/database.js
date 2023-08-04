@@ -249,3 +249,13 @@ const database = {
     },
   ],
 };
+
+const schools = () => {
+  return structuredClone(database.schools)
+}
+const types = () => (
+  structuredClone(database.archetypes)
+  ) //implied return version
+  
+const books = () => structuredClone(database.books)
+
